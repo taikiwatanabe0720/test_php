@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webサイト</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Webサイト</h1>
+    
+    <!-- データを表示するためのエリア -->
+    <div id="data-display"></div>
+
+    <!-- データを入力するためのフォーム -->
+    <form id="data-form">
+        <label for="data-input">データ入力:</label>
+        <input type="text" id="data-input" required>
+        <button type="button" onclick="writeToDatabase()">データ書き込み</button>
+    </form>
+
+    <!-- JavaScriptファイルの読み込み -->
+    <script src="script.js"></script>
+</body>
+</html>
